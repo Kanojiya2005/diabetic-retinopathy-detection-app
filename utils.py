@@ -48,7 +48,7 @@ def load_model(model_path="model/dr_model.pth", device="cpu"):
     if not os.path.exists(model_path):
         print("Downloading model from Google Drive...")
 
-        file_id = "1MDvS98CimXVEWo2Q8xxrrM8dRBpi56Ax"
+        file_id = "1quklJfOJfMHRkuXNfxQw8zbhU_SbvX3H"
 
         url = f"https://drive.google.com/uc?id={file_id}"
         gdown.download(url, model_path, quiet=False)
